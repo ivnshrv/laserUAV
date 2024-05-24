@@ -1,6 +1,10 @@
 # laserUAV
 A solution for controlling UAV by means of sending laser signals. My individual project in 10th grade.
 
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+![ROS](https://img.shields.io/badge/ros-%230A0FF9.svg?style=for-the-badge&logo=ros&logoColor=white)
+
 # Components
 ### receiver - code running on the receiver. The receiver connects to Raspberry PI via GPIO and transmits commands from base.
 ### rpi - code running on the Raspberry PI controller on drone. RPI sends commands to the flight controller (PixRacer in this case)
